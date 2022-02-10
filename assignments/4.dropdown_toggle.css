@@ -1,0 +1,194 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#header {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(187, 181, 181);
+  color: white;
+  position: fixed;
+}
+
+#heading {
+  display: inline-block;
+  height: 50px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-family: "Comfortaa", cursive;
+  transition: 1s;
+}
+#heading > a > i h2{
+  text-decoration: none;
+}
+#heading a:hover {
+  background-color: blanchedalmond;
+  text-decoration: none;
+  transform: scale(1.5, 1.5);
+}
+
+
+#navbar {
+  padding-top: 15px;
+  float: right;
+  font-family: "Comfortaa", cursive;
+  text-decoration: none;
+}
+/* #navbar a{
+  color: aqua;
+  background-color: blue;
+} */
+
+
+.clear {
+  clear: both;
+}
+.menubar1{
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 25px;
+  transition: 2s;
+  
+}
+.menubar1:hover {
+  /* background-color: cornsilk; */
+  transform: scale(1.5, 1.5);
+}
+.menubar1 a{
+  color: aqua;
+}
+.menubar1 a:hover{
+  color: blue;
+  background-color: burlywood;
+}
+.menubar1 a:visited{
+  color: brown;
+  background-color: cadetblue;
+}
+
+.menubar2 {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 25px;
+  transition: 1s;
+}
+.menubar2:hover {
+  /* background-color: rosybrown; */
+  transform: scale(1.5, 1.5);
+}
+.menubar2 a:hover{
+  color: blue;
+  background-color: cornsilk;
+}
+.menubar2 a:visited{
+  color: brown;
+  background-color: cadetblue;
+}
+.menubar3 {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 25px;
+  transition: 1s;
+}
+.menubar3:hover {
+  background-color: cornsilk;
+  transform: translateY(-10px);
+}
+.menubar3 a:visited{
+  color: brown;
+  background-color: cadetblue;
+}
+.menubar4 {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 25px;
+  transition: 1s;
+
+}
+.menubar4:hover {
+  background-color: cornsilk;
+  transform: translate(10px);
+}
+.menubar4 a:visited{
+  color: brown;
+  background-color: cadetblue;
+}
+.menubar5 {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 25px;
+  transition: 1s;
+}
+.menubar5:hover {
+  background-color: cornsilk;
+  transform: scale(1.25, 1.25);
+}
+.menubar5 a:visited{
+  color: brown;
+  background-color: cadetblue;
+}
+#bodytag {
+  height: 300vh;
+  /* background-image: url(./pics/mobirise.jpg); */
+  background-size: cover;
+  background-attachment: scroll;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Sacramento", cursive;
+  font-size: 30px;
+}
+img {
+  float: left;
+  transition: 1s;
+}
+h1 {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+#button1 {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(120, 157, 233);
+  color: rgb(139, 44, 0);
+  border-radius: 90px;
+  border: 3px solid black;
+  text-align: center;
+  transition: 1s;
+}
+#button1:hover{
+  color: red;
+  transform: scale(1.25, 1.25);
+
+}
+#button1 a :hover{
+  background-color: yellow;
+}
+#button2 {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  background-color: greenyellow;
+  color: brown;
+  /* margin-left: 450px; */
+  border-radius: 80px;
+  border: 3px solid black;
+  text-align: center;
+  transition: 1s;
+}
+#button2:hover{
+  color: red;
+  transform: scale(1.25, 1.25);
+}
+#images img:hover{
+  transform: rotate(90deg); 
+}
+footer {
+  height: 50px;
+  background-color: darkslategray;
+}

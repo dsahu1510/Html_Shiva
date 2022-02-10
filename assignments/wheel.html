@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheel of Fortune</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        #spin img{
+            width: 500px;
+            height: 500px;
+        }
+        #spin {
+            margin-top: 30px;
+            margin-left: 450px;
+            animation-name: wheel;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: 5s;
+            position: absolute;
+        }
+        @keyframes wheel{
+            0% {
+                transform: rotate(0turn);
+            }
+            100%{
+                transform: rotate(5turn);
+            }
+        }
+        #spin:hover{
+            animation-play-state: paused;
+        }
+        #arrow{
+            margin-top: 50px;
+            margin-left: 680px ;
+            position: sticky;
+        }
+        </style>
+</head>
+<body>
+    <div id="spin">
+        <img src="./images/wheel.png" alt="Wheel">
+    </div>
+    <div id="arrow">
+        <img src="./images/icons8-down-arrow-20.png" alt="arrow icon">
+    </div>
+</body>
+</html>

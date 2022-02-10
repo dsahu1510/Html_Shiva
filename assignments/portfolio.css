@@ -1,0 +1,317 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+    /* position: fixed; */
+}
+#heading{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 20px;
+    position: fixed;
+}
+#heading a {
+    text-decoration: none;
+    color: wheat;
+}
+#heading a:hover{
+    color: red;
+}
+#navbar{
+    float: right;
+    margin: 20px;
+    padding-right: 50px;
+    /* position: fixed; */
+}
+.menuitem{
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    /* position: fixed; */
+}
+.menuitem a{
+    text-decoration: none;
+    color: wheat;
+}
+.menuitem a:hover{
+    color: red;
+}
+#body{
+    /* background-color: cadetblue ; */
+    text-align: center;
+}
+#bg{
+    height: 100vh;
+    background-image: url(./images/header-bg.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+}
+#notation{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    padding-top: 150px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+    text-align: center;
+    /* background-color: cadetblue; */
+    margin-top: 190px;
+    margin-left: 600px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+#setting_wheel{
+    width: 40px;
+    height: 35px;
+    float:left;
+    margin-top: 30px;
+    background-color:rgb(129, 127, 127);
+    position: fixed;
+    border-radius: 5px;
+    padding: 3px;
+}
+#setting_wheel >a >img{
+    animation-name: wheel;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+@keyframes wheel{
+    0% {
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}
+#jumping_btn{
+    width: 30px;
+    height: 40px;
+    background-color: rgb(27, 26, 26);
+    text-align: center;
+    border: blanchedalmond 2px solid;
+    border-radius: 15px ;
+    color: white;
+    transition: 1s;
+    margin-left: 670px;
+    /* margin-bottom: 10px; */
+    animation-name: jumping;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes jumping{
+    0%{
+        transform: rotateY(0turn);
+    }
+    100%{
+        transform: rotateY(1turn);
+    }
+}
+            /*page 2 about page */
+#about_page{
+    height: 80vh;
+}
+#about_page img{
+    float: left;
+    width: 550px;
+    height: 500px;
+    border: 5px solid wheat;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#head{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+#head h3{
+    color: red;
+}
+.para{
+    text-align: center;
+    font-size: 20px;
+    padding-left: 15px;
+    line-height: 30px;
+}
+#refer{
+    margin-right: 450px;
+}
+
+#refer1{
+    width: 60px;
+    height: 60px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    float: right; 
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; 
+    padding-left: 10px;
+}
+
+#refer2{
+    width: 60px;
+    height: 60px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    float: right; 
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; 
+    padding-left: 10px;
+}
+#refer3{
+    width: 60px;
+    height: 60px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    float: right; 
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; 
+    padding-left: 10px;
+}
+#refer4{
+    width: 60px;
+    height: 60px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    float: right; 
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; 
+    padding-left: 10px;
+}
+
+            /* page 3 services page */
+#background{
+    background-color: rgb(213, 221, 243);
+}
+#head1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+.head1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+}
+.boxes{
+    padding: 20px 30px;
+    text-align: center;
+}
+.hrline :hover{
+    transform: scale(1.5,1.5);
+}
+#box1{
+    width: 300px;
+    border: 1px solid gray;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    transition: 2s;
+}
+#box2{
+    width: 300px;
+    border: 1px solid gray;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    transition: 2s;
+}
+
+#box3{
+    width: 300px;
+    border: 1px solid gray;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    transition: 2s;
+}
+
+#box4{
+    width: 300px;
+    border: 1px solid gray;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    transition: 2s;
+}
+
+#box5{
+    width: 300px;
+    border: 1px solid gray;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    transition: 2s;
+}
+
+#box6{
+    width: 300px;
+    border: 1px solid gray;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    transition: 2s;
+}
+
+#freelancer h1{
+    text-align: center;
+}
+#hire_me{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin-left: 600px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: brown;
+
+}
+#hire_me a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+        /* page 4 client Page */
+#our_client >h3{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+}
+
